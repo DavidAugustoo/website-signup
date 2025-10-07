@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  @apply bg-neutral-25 text-neutral-900 font-sans;
+}
+
+input::-webkit-calendar-picker-indicator {
+  filter: invert(42%) sepia(11%) saturate(1255%) hue-rotate(176deg) brightness(95%) contrast(85%);
+}
